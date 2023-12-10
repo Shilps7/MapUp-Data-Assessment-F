@@ -1,7 +1,8 @@
 import pandas as pd
 
 
-def generate_car_matrix(df)->pd.DataFrame:
+df = pd.read_csv("dataset-1.csv")
+df.head(20)
     """
     Creates a DataFrame  for id combinations.
 
